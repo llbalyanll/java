@@ -1,4 +1,5 @@
 import javax.sound.midi.SysexMessage;
+import java.awt.desktop.SystemEventListener;
 import java.util.Scanner;
 
 import java.util.Scanner;
@@ -34,8 +35,31 @@ public class Main
 
                 String str = "Hello world";
                 System.out.println(str);
+
                 Scanner sso = new Scanner(System.in);
                 System.out.println(sso.nextLine());
+
+
+                Scanner nup = new Scanner(System.in);
+                int First,Second,Result;
+                System.out.println("Enter First nup:");
+                First = nup.nextInt();
+                System.out.println("Enter Second nup:");
+                Second = nup.nextInt();
+                Result = First + Second;
+                System.out.println("Result is -" + Result);
+                Scanner lup = new Scanner(System.in);
+
+                Float mek,erku,result;
+                System.out.println("Enter mek lup");
+                mek = lup.nextFloat();
+                System.out.println("Enter erku.lup");
+                erku = lup.nextFloat();
+                result = mek + erku;
+                result/=2;
+                System.out.println("Result is -" + result);
+
+
 
 
 
