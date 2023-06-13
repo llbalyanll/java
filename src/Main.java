@@ -1,6 +1,7 @@
 import javax.sound.midi.SysexMessage;
 import java.util.Scanner;
 
+import java.util.Scanner;
 public class Main
 {
     public static void main(String[] args)
@@ -33,6 +34,10 @@ public class Main
 
                 String str = "Hello world";
                 System.out.println(str);
+                Scanner sso = new Scanner(System.in);
+                System.out.println(sso.nextLine());
+
+
 
 
 
