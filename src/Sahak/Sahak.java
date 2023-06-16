@@ -1,6 +1,7 @@
 package Sahak;
 
 import java.util.Scanner;
+import java.util.Timer;
 
 public class Sahak {
     public static void main(String[] args) {
@@ -41,5 +42,6 @@ public class Sahak {
         b=c;
         System.out.println(a);// 98
         System.out.println(b);// 20
+
     }
 }
